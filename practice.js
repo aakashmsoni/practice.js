@@ -110,3 +110,15 @@
 //   return currentSmallest;
 // }
 // console.log(smallestString([50, 100, 120, 40]));
+
+// Write a function that takes in an array of words and returns the number of words that begin with the letter “a”.
+// function beginswitha(strings) {
+//   let results = [];
+//   for (let string of strings) {
+//     if (string.charAt(0) === "a") {
+//       results.push(string);
+//     }
+//   }
+//   return results.length;
+// }
+// console.log(beginswitha(["aakash", "apple", "ball", "afar"]));

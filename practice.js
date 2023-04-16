@@ -124,15 +124,25 @@
 // console.log(beginswitha(["aakash", "apple", "ball", "afar"]));
 
 //Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
-function singlestring(strings) {
-  let result = [];
-  for (let i = 0; i < strings.length - 1; i++) {
-    result = result + strings[i] + ",";
-  }
-  result = result + strings.slice("-1");
-  // strings.forEach(function (string) {     <<< initially used this code but wanted to refine it to remove comma after last string
-  //   result = result + string + ", ";
-  // });
-  return result;
-}
-console.log(singlestring(["hello", "how", "are", "you", "today"]));
+// function singlestring(strings) {
+//   let result = [];
+//   for (let i = 0; i < strings.length - 1; i++) {
+//     result = result + strings[i] + ",";
+//   }
+//   result = result + strings.slice("-1");
+//   // strings.forEach(function (string) {     <<< initially used this code but wanted to refine it to remove comma after last string
+//   //   result = result + string + ", ";
+//   // });
+//   return result;
+// }
+// console.log(singlestring(["hello", "how", "are", "you", "today"]));
+
+// Write a function that takes in an array of numbers and returns the product of all the numbers (each number multiplied by each other).
+// function computeProduct(array) {
+//   let result = 1;
+//   array.forEach(function (string) {
+//     result = result * string;
+//   });
+//   return result;
+// }
+// console.log(computeProduct([1, 2, 3, 4]));

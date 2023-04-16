@@ -98,3 +98,15 @@
 //   return sum;
 // }
 // console.log(sumNumbers([1, 2, 3]));
+
+// Write a function that takes in an array of strings and returns the smallest string.
+// function smallestString(array) {
+//   let currentSmallest = array[0];
+//   for (let num of array) {
+//     if (num < currentSmallest) {
+//       currentSmallest = num;
+//     }
+//   }
+//   return currentSmallest;
+// }
+// console.log(smallestString([50, 100, 120, 40]));
